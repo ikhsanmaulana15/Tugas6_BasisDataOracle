@@ -112,6 +112,17 @@
    <img src= "https://user-images.githubusercontent.com/45529723/145419052-b70e747d-dc2c-4340-ba06-de1c51a29f05.PNG" />
       
 -------------------------------------------------------------------------------------------
+       3. Petugas
+   <img src= "https://user-images.githubusercontent.com/45529723/145419052-b70e747d-dc2c-4340-ba06-de1c51a29f05.PNG" />
+      
+-------------------------------------------------------------------------------------------
+       4. Pelanggan
+   <img src= "https://user-images.githubusercontent.com/45529723/145602016-d813b6bf-f0fa-4e94-aa10-7874318946e9.PNG" />
+      
+-------------------------------------------------------------------------------------------
+
+
+
 ##  6. Membuat Repository Github
        
        Repository github sudah saya buat :
