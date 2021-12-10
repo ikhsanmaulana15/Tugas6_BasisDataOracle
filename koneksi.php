@@ -9,6 +9,6 @@
 		$err=oci_error();
 		echo "Gagal Tersambung!<br /><br />";
 	}else{
-		echo "koneksi berhasil !<br />";
+		//echo "koneksi berhasil !<br />";
 	}
 ?>

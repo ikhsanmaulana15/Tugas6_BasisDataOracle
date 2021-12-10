@@ -21,13 +21,13 @@
         </li>
 
         <li>
-          <a href="index.php?hal=siswa">
+          <a href="index.php?hal=petugas">
             <i class="fa fa-users"></i> <span>Petugas</span>
           </a>
         </li>
 
         <li>
-          <a href="index.php?hal=siswa">
+          <a href="index.php?hal=pelanggan">
             <i class="fa fa-users"></i> <span>Pelanggan</span>
           </a>
         </li>
@@ -45,7 +45,7 @@
         </li>
 
         <li>
-          <a href="index.php?hal=siswa">
+          <a href="index.php?hal=transaksi">
             <i class="fa fa-users"></i> <span>Transaksi</span>
           </a>
         </li>
