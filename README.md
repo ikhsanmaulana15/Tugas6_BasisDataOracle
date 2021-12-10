@@ -127,7 +127,7 @@
        
        Repository github sudah saya buat :
        
-Klik https://github.com/ikhsanmaulana15/Tugas5_BD-Oracle/
+Klik https://github.com/ikhsanmaulana15/Tugas5_BasisDataOracle/
        
        
        
@@ -136,7 +136,7 @@ Klik https://github.com/ikhsanmaulana15/Tugas5_BD-Oracle/
        
        Untuk semua code sudah saya lampirkan disini (Code akan selalu saya update sampai projek ini jadi sebuah sistem yang utuh) :
        
-Klik https://github.com/ikhsanmaulana15/Tugas5_BD-Oracle/
+Klik https://github.com/ikhsanmaulana15/Tugas5_BasisDataOracle/
        
        
        
