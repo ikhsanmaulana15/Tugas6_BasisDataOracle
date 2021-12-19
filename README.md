@@ -37,6 +37,17 @@
 
      Oke, disini kita akan melakukan proses insert dan delete data pada tabel yang telah saya buat sebelumnya yaitu :
      1. Data Master Petugas
+        A. Delete Data Petugas
+           Pertama-tama kalian buat file hapus_petugas.php di folder petugas seperti berikut ini :         
+   <img src= "https://user-images.githubusercontent.com/45529723/146665480-b80904d3-114a-40c2-8259-e81a4f1b66f9.PNG" />
+           
+           Setelah itu, kita tinggal testing sebagai berikut :
+           Data sebelum dihapus : 
+           
+           Data Setelah dihapus :
+           
+           
+        B. Insert Data Petugas
      2. Data Master Jenis_Barang
      3. Data Master Barang
      4. Data Pelanggan
