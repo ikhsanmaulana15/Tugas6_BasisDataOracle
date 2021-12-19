@@ -150,3 +150,4 @@ Jika kalian memerlukan tutorial mengenai DATABASE ORACLE, silahkan dapat mengunj
  https://www.youtube.com/c/DuaMasaChannel
 
 
+# Tugas6_BasisDataOracle
