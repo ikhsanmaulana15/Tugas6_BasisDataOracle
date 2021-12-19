@@ -43,8 +43,18 @@
            
            Setelah itu, kita tinggal testing sebagai berikut :
            Data sebelum dihapus : 
-           
+           Untuk di tampilan dan di database ada 10 data petugas seperti gambar berikut ini
+   <img src= "https://user-images.githubusercontent.com/45529723/146676711-54ef2376-dedf-47b9-8375-83877aa0da28.PNG" />
+           <img src= "https://user-images.githubusercontent.com/45529723/146676754-e18b9517-ab82-412a-a4c4-d34530cd4c65.PNG" />
+
+
            Data Setelah dihapus :
+           Disini saya hapus untuk data dengan kode petugas P010, caranya kita tinggal klik tanda hapus yang ada di halaman data Petugas, hasilnya adalah sebagai berikut :
+   <img src= "https://user-images.githubusercontent.com/45529723/146677002-4f84369b-8af8-43ab-9481-3e3d0ce52dad.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146677005-f56e378b-a205-4978-b908-c5829f9a64ff.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146677006-482088a5-9b8e-41a1-9722-b4008ae8ba61.PNG" />
+
+
            
            
         B. Insert Data Petugas
