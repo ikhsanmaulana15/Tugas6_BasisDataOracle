@@ -1,16 +1,11 @@
-## TUGAS 5 BASIS DATA ORACLE
+## TUGAS 6 BASIS DATA ORACLE
 
    Pada kesempatan kali ini saya akan menjawab beberapa poin atau soal berikut ini :
-   1.	Buat koneksi dari oracle le Bahasa pemrograman contoh:php
-   2.	Buat view dalam database masing2
-   3.	Buat halaman home/ bernda
-   4.	Gunakan query count unutuk menampilkan jumlah data dari view. 
-   5.	Buat menu tampil data untuk master data
-   6.	Buat repository di github dengan nama tugas 5_bd oracle
-   7.	Upload semua code
-   8.	Lampirkan screenshoot dan penjelasan di Readme.
-   
-   **Untuk poin 6, 7, dan 8 sudah langsung terjawab dengan adanya github penjelasan ini.**
+   1.	Buat trigger
+   2.	Buat insert data sama delete di masing2 table master
+   3.	Buat Githhub projek baru tugas 6 dan upload
+   4. Kumpulkan di form
+   **Untuk poin 3 & 4 sudah langsung terjawab dengan adanya github penjelasan ini.**
    
    **Oke , langsung saja berikut adalah penjelasan dari beberapa pertanyaan atau poin di atas :**
 
