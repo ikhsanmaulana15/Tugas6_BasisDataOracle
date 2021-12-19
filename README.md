@@ -13,12 +13,12 @@
 -------------------------------------------------------------------------------------------
 ##  1. Pembuatan Trigger
 
-    Disini saya membuat suatu trigger MASUK. Trigger ini kita gunakan untuk mencatat siapa saja user yang login ke system dan hasilnya akan dicatat didalam tabel riwayatlogin.
-    1. Kita buat terlebih dahulu untuk tabel riwayat login seperti berikut ini :
+    Disini saya membuat suatu trigger MASUK. Trigger ini kita gunakan untuk mencatat siapa saja user yang login ke 
+    system dan hasilnya akan dicatat didalam tabel riwayatlogin.
     
+    1. Kita buat terlebih dahulu untuk tabel riwayat login seperti berikut ini :
     2. Setelah itu, kita tuliskan query triggernya sebagai berikut :
-   
-   
+    
 -------------------------------------------------------------------------------------------
     3. Kemudian, kita coba untuk testing masuk dengan user kalian sendiri
    
