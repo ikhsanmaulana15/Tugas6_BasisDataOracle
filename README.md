@@ -103,7 +103,7 @@
 
 -------------------------------------------------------------------------------------------
         B. Insert Data Jenis_Barang
-        Pertama-tama kalian buat file tambah_petugas.php di folder petugas (untuk source code bisa cek difolder petugas)
+        Pertama-tama kalian buat file tambah_jenis_barang.php di folder petugas (untuk source code bisa cek difolder jenis_barang)
         , file ini digunakan untuk membuat form/ halaman baru seperti berikut ini :         
    <img src= "https://user-images.githubusercontent.com/45529723/146679562-444bdbe7-aabd-42a7-8497-72357207fc8e.PNG" />
    
