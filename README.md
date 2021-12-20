@@ -141,7 +141,7 @@
 -------------------------------------------------------------------------------------------
            Data Setelah dihapus :
            Disini saya hapus untuk data dengan kode barang B009, caranya kita tinggal klik tanda hapus yang ada di halaman 
-           data jenis barang, hasilnya adalah sebagai berikut :
+           data barang, hasilnya adalah sebagai berikut :
    <img src= "https://user-images.githubusercontent.com/45529723/146812099-794092de-c6d3-4407-a915-e604b20ee530.PNG" />
    <img src= "https://user-images.githubusercontent.com/45529723/146812103-1b1e1272-bccf-47da-a9df-3e9082e6c941.PNG" />
    <img src= "https://user-images.githubusercontent.com/45529723/146812104-169203aa-bf30-4ec4-b87f-9a8ae21da8b1.PNG" />
@@ -150,24 +150,26 @@
         B. Insert Data Barang
         Pertama-tama kalian buat file tambah_barang.php di folder barang (untuk source code bisa cek difolder barang)
         , file ini digunakan untuk membuat form/ halaman baru seperti berikut ini :         
-   <img src= "https://user-images.githubusercontent.com/45529723/146809702-effa10e2-ad38-4880-b5bb-90df43149593.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146813278-13e52150-9e0d-4aa4-bed3-02348daa2843.PNG" />
    
 -------------------------------------------------------------------------------------------           
            Setelah itu, kita buat file aksi_tambah_barang di folder barang supaya data yang di input masuk ke database.
-   <img src= "https://user-images.githubusercontent.com/45529723/146810130-9f1080ec-842a-4880-8166-571600c9c08f.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146813283-c27026ae-a9fd-424a-8b0f-2dcca93d107c.PNG" />
   
 -------------------------------------------------------------------------------------------  
            Untuk di tampilan dan di database ada 6 data barang seperti gambar berikut ini
-  <img src= "https://user-images.githubusercontent.com/45529723/146809715-333a580d-d48b-48aa-906b-af6a5b2c9f7a.PNG" />
+  <img src= "https://user-images.githubusercontent.com/45529723/146813286-50a9a9a0-d11e-407a-894e-dae412fa3cf0.PNG" />
 
 -------------------------------------------------------------------------------------------  
            Disini saya coba untuk memasukkan data berikut :
-   <img src= "https://user-images.githubusercontent.com/45529723/146809718-d008ef6a-a3ca-45c6-9c4b-31dc57bb762e.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146813288-b924ba91-0519-4ae5-a521-3b1fac9640cf.PNG" />
     
 -------------------------------------------------------------------------------------------  
            Maka baik di database ataupun di halaman web,  data yang di input akan otomatis masuk :
-   <img src= "https://user-images.githubusercontent.com/45529723/146809722-341ea1f8-0791-43cf-8a4d-27188f88771b.PNG" />
-   <img src= "https://user-images.githubusercontent.com/45529723/146809726-b6ae1c41-323d-43c7-b8b9-c64ef039919d.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146813291-c2f9de62-0145-4cd6-98e9-c112388c4daa.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146813292-75df3948-2add-4e86-aa4b-0223c9c03e87.PNG" />
+   
+   
 ------------------------------------------------------------------------------------------- 
 -------------------------------------------------------------------------------------------
      4. Data Pelanggan
