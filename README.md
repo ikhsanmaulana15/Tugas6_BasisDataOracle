@@ -214,10 +214,9 @@
            Maka baik di database ataupun di halaman web,  data yang di input akan otomatis masuk :
    <img src= "https://user-images.githubusercontent.com/45529723/146817155-3026bdd4-887a-4d63-953c-1b0df28b5a8c.PNG" />
    <img src= "https://user-images.githubusercontent.com/45529723/146817156-c6eaa359-76d2-4145-ab89-65681602728f.PNG" />
+  
+  
 -------------------------------------------------------------------------------------------
-
-
-
 ##  3. Membuat Repository Github
        Untuk screenshoot dan penjelasan sudah saya buat di README pada github. Terima Kasih
        Repository github sudah saya buat :
