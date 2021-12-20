@@ -109,7 +109,7 @@
    
 -------------------------------------------------------------------------------------------           
            Setelah itu, kita buat file aksi_tambah_jenis_barang di folder jenis_barang supaya data yang di input masuk ke database.
-   <img src= "https://user-images.githubusercontent.com/45529723/146809712-7800c17d-be30-436a-a96d-def69c7fd4c4.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146810130-9f1080ec-842a-4880-8166-571600c9c08f.PNG" />
   
 -------------------------------------------------------------------------------------------  
            Untuk di tampilan dan di database ada 7 data jenis_barang seperti gambar berikut ini
