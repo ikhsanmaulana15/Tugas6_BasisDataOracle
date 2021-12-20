@@ -221,7 +221,7 @@
        Untuk screenshoot dan penjelasan sudah saya buat di README pada github. Terima Kasih
        Repository github sudah saya buat :
        
-Klik 
+Klik https://github.com/ikhsanmaulana15/Tugas6_BasisDataOracle.git
        
        
        
