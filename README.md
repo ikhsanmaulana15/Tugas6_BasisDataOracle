@@ -45,8 +45,8 @@
            Setelah itu, kita tinggal testing sebagai berikut :
            Data sebelum dihapus : 
            Untuk di tampilan dan di database ada 10 data petugas seperti gambar berikut ini
-   <img src= "https://user-images.githubusercontent.com/45529723/146676754-e18b9517-ab82-412a-a4c4-d34530cd4c65.PNG" />
    <img src= "https://user-images.githubusercontent.com/45529723/146676711-54ef2376-dedf-47b9-8375-83877aa0da28.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146676754-e18b9517-ab82-412a-a4c4-d34530cd4c65.PNG" />
 
 -------------------------------------------------------------------------------------------
            Data Setelah dihapus :
