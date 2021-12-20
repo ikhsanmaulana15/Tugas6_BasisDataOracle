@@ -79,10 +79,57 @@
    <img src= "https://user-images.githubusercontent.com/45529723/146786481-33316e69-60bb-4fc3-bc51-1c0b812b34c3.PNG" />
    <img src= "https://user-images.githubusercontent.com/45529723/146786490-99583d9d-4333-4630-806f-4d8c65f5b7aa.PNG" />
 
-           
+-------------------------------------------------------------------------------------------            
 -------------------------------------------------------------------------------------------
      2. Data Master Jenis_Barang
+        A. Delete Data Jenis_Barang
+           Pertama-tama kalian buat file hapus_jenis_barang.php di folder jenis_barang seperti berikut ini :         
+   <img src= "https://user-images.githubusercontent.com/45529723/146789862-6d79777e-13dd-4086-89f0-067b670dc100.PNG" />
+   
+-------------------------------------------------------------------------------------------           
+           Setelah itu, kita tinggal testing sebagai berikut :
+           Data sebelum dihapus : 
+           Untuk di tampilan web dan di database ada 8 data jenis barang seperti gambar berikut ini
+   <img src= "https://user-images.githubusercontent.com/45529723/146789869-59a29331-a7aa-4665-ba5a-f801088c7190.PNG" />
+           <img src= "https://user-images.githubusercontent.com/45529723/146789872-0ac5e79d-334e-477e-bbc3-0695f6deccbc.PNG" />
+
+-------------------------------------------------------------------------------------------
+           Data Setelah dihapus :
+           Disini saya hapus untuk data dengan kode jenis barang K008, caranya kita tinggal klik tanda hapus yang ada di halaman 
+           data jenis barang, hasilnya adalah sebagai berikut :
+   <img src= "https://user-images.githubusercontent.com/45529723/146789876-39fa044d-ee6b-4871-8743-f224462ae33c.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146789880-264d7fe6-58dc-40b7-98d1-79a8523f2bb1.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146789882-9429095b-b69f-4773-ac40-4cfe2a94f456.PNG" />
+
+-------------------------------------------------------------------------------------------
+        B. Insert Data Jenis_Barang
+        Pertama-tama kalian buat file tambah_petugas.php di folder petugas (untuk source code bisa cek difolder petugas)
+        , file ini digunakan untuk membuat form/ halaman baru seperti berikut ini :         
+   <img src= "https://user-images.githubusercontent.com/45529723/146679562-444bdbe7-aabd-42a7-8497-72357207fc8e.PNG" />
+   
+-------------------------------------------------------------------------------------------           
+           Setelah itu, kita buat file aksi_tambah_petugas di folder petugas supaya data yang di input masuk ke database.
+   <img src= "https://user-images.githubusercontent.com/45529723/146784604-c189f578-3603-497a-a520-1e1f36125252.PNG" />
+  
+-------------------------------------------------------------------------------------------  
+           Untuk di tampilan dan di database ada 9 data petugas seperti gambar berikut ini
+  <img src= "https://user-images.githubusercontent.com/45529723/146785330-d560435b-3d6a-4103-967e-2ef62cec7c73.PNG" />
+
+-------------------------------------------------------------------------------------------  
+           Disini saya coba untuk memasukkan data berikut :
+   <img src= "https://user-images.githubusercontent.com/45529723/146785323-ce787798-22c3-4dde-8a7a-d0a261d3f09c.PNG" />
+    
+-------------------------------------------------------------------------------------------  
+           Maka baik di database ataupun di halaman web,  data yang di input akan otomatis masuk :
+   <img src= "https://user-images.githubusercontent.com/45529723/146786481-33316e69-60bb-4fc3-bc51-1c0b812b34c3.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146786490-99583d9d-4333-4630-806f-4d8c65f5b7aa.PNG" />
+   
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
      3. Data Master Barang
+     
+------------------------------------------------------------------------------------------- 
+-------------------------------------------------------------------------------------------
      4. Data Pelanggan
  
 -------------------------------------------------------------------------------------------
