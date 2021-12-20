@@ -13,8 +13,8 @@
 -------------------------------------------------------------------------------------------
 ##  1. Pembuatan Trigger
 
-    Disini saya membuat suatu trigger MASUK. Trigger ini kita gunakan untuk mencatat siapa saja user yang login ke 
-    system dan hasilnya akan dicatat didalam tabel riwayatlogin.
+    Disini saya membuat suatu trigger MASUK. Trigger ini kita gunakan untuk mencatat siapa saja user yang 
+    login ke system dan hasilnya akan dicatat didalam tabel riwayatlogin.
     
     1. Kita buat terlebih dahulu untuk tabel riwayat login seperti berikut ini :
     2. Setelah itu, kita tuliskan query triggernya sebagai berikut :
@@ -58,21 +58,28 @@
 
 -------------------------------------------------------------------------------------------
         B. Insert Data Petugas
-        Pertama-tama kalian buat file tambah_petugas.php di folder petugas , hasil codingannya seperti berikut ini :         
+        Pertama-tama kalian buat file tambah_petugas.php di folder petugas (untuk source code bisa cek difolder petugas)
+        , file ini digunakan untuk membuat form/ halaman baru seperti berikut ini :         
    <img src= "https://user-images.githubusercontent.com/45529723/146679562-444bdbe7-aabd-42a7-8497-72357207fc8e.PNG" />
    
 -------------------------------------------------------------------------------------------           
            Setelah itu, kita buat file aksi_tambah_petugas di folder petugas supaya data yang di input masuk ke database.
-   <img src= "https://user-images.githubusercontent.com/45529723/146676711-54ef2376-dedf-47b9-8375-83877aa0da28.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146784604-c189f578-3603-497a-a520-1e1f36125252.PNG" />
+  
+-------------------------------------------------------------------------------------------  
+           Untuk di tampilan dan di database ada 9 data petugas seperti gambar berikut ini
+  <img src= "https://user-images.githubusercontent.com/45529723/146785330-d560435b-3d6a-4103-967e-2ef62cec7c73.PNG" />
+
+-------------------------------------------------------------------------------------------  
+           Disini saya coba untuk memasukkan data berikut :
+   <img src= "https://user-images.githubusercontent.com/45529723/146785323-ce787798-22c3-4dde-8a7a-d0a261d3f09c.PNG" />
+    
+-------------------------------------------------------------------------------------------  
+           Maka baik di database ataupun di halaman web,  data yang di input akan otomatis masuk :
+   <img src= "https://user-images.githubusercontent.com/45529723/146786481-33316e69-60bb-4fc3-bc51-1c0b812b34c3.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146786490-99583d9d-4333-4630-806f-4d8c65f5b7aa.PNG" />
+
            
-           Kemudian, kita coba tambahkan data petugas seperti berikut dan cek di database apakah berhasil masuk atau tidak : 
-           Untuk di tampilan dan di database ada 10 data petugas seperti gambar berikut ini
-   <img src= "https://user-images.githubusercontent.com/45529723/146676711-54ef2376-dedf-47b9-8375-83877aa0da28.PNG" />
-           <img src= "https://user-images.githubusercontent.com/45529723/146676754-e18b9517-ab82-412a-a4c4-d34530cd4c65.PNG" />
-
-
-           
-
 -------------------------------------------------------------------------------------------
      2. Data Master Jenis_Barang
      3. Data Master Barang
