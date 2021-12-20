@@ -105,24 +105,24 @@
         B. Insert Data Jenis_Barang
         Pertama-tama kalian buat file tambah_jenis_barang.php di folder petugas (untuk source code bisa cek difolder jenis_barang)
         , file ini digunakan untuk membuat form/ halaman baru seperti berikut ini :         
-   <img src= "https://user-images.githubusercontent.com/45529723/146679562-444bdbe7-aabd-42a7-8497-72357207fc8e.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146809702-effa10e2-ad38-4880-b5bb-90df43149593.PNG" />
    
 -------------------------------------------------------------------------------------------           
-           Setelah itu, kita buat file aksi_tambah_petugas di folder petugas supaya data yang di input masuk ke database.
-   <img src= "https://user-images.githubusercontent.com/45529723/146784604-c189f578-3603-497a-a520-1e1f36125252.PNG" />
+           Setelah itu, kita buat file aksi_tambah_jenis_barang di folder jenis_barang supaya data yang di input masuk ke database.
+   <img src= "https://user-images.githubusercontent.com/45529723/146809712-7800c17d-be30-436a-a96d-def69c7fd4c4.PNG" />
   
 -------------------------------------------------------------------------------------------  
-           Untuk di tampilan dan di database ada 9 data petugas seperti gambar berikut ini
-  <img src= "https://user-images.githubusercontent.com/45529723/146785330-d560435b-3d6a-4103-967e-2ef62cec7c73.PNG" />
+           Untuk di tampilan dan di database ada 7 data jenis_barang seperti gambar berikut ini
+  <img src= "https://user-images.githubusercontent.com/45529723/146809715-333a580d-d48b-48aa-906b-af6a5b2c9f7a.PNG" />
 
 -------------------------------------------------------------------------------------------  
            Disini saya coba untuk memasukkan data berikut :
-   <img src= "https://user-images.githubusercontent.com/45529723/146785323-ce787798-22c3-4dde-8a7a-d0a261d3f09c.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146809718-d008ef6a-a3ca-45c6-9c4b-31dc57bb762e.PNG" />
     
 -------------------------------------------------------------------------------------------  
            Maka baik di database ataupun di halaman web,  data yang di input akan otomatis masuk :
-   <img src= "https://user-images.githubusercontent.com/45529723/146786481-33316e69-60bb-4fc3-bc51-1c0b812b34c3.PNG" />
-   <img src= "https://user-images.githubusercontent.com/45529723/146786490-99583d9d-4333-4630-806f-4d8c65f5b7aa.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146809722-341ea1f8-0791-43cf-8a4d-27188f88771b.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146809726-b6ae1c41-323d-43c7-b8b9-c64ef039919d.PNG" />
    
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
