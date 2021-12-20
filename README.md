@@ -173,7 +173,47 @@
 ------------------------------------------------------------------------------------------- 
 -------------------------------------------------------------------------------------------
      4. Data Pelanggan
- 
+        A. Delete Data Pelanggan
+           Pertama-tama kalian buat file hapus_pelanggan.php di folder pelanggan seperti berikut ini :         
+   <img src= "https://user-images.githubusercontent.com/45529723/146816469-72c76137-f937-4ad4-b352-0d8f2db3f8c0.PNG" />
+   
+-------------------------------------------------------------------------------------------           
+           Setelah itu, kita tinggal testing sebagai berikut :
+           Data sebelum dihapus : 
+           Untuk di tampilan web dan di database ada 10 data pelanggan seperti gambar berikut ini
+   <img src= "https://user-images.githubusercontent.com/45529723/146816475-e508e698-fad5-4b11-9170-aac676c29beb.PNG" />
+           <img src= "https://user-images.githubusercontent.com/45529723/146816477-c0c5cc19-1a24-4f1b-83e6-7490aa263f29.PNG" />
+
+-------------------------------------------------------------------------------------------
+           Data Setelah dihapus :
+           Disini saya hapus untuk data dengan kode barang P010, caranya kita tinggal klik tanda hapus yang ada di halaman 
+           data pelanggan, hasilnya adalah sebagai berikut :
+   <img src= "https://user-images.githubusercontent.com/45529723/146816482-08161dd2-6de8-41dc-aaa3-8b6f32e08bae.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146816484-45b72dff-a31b-49be-be3c-2636797c6d2d.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146816487-fbbd0887-be5b-4f5a-b845-1c08d9bb2497.PNG" />
+
+-------------------------------------------------------------------------------------------
+        B. Insert Data Barang
+        Pertama-tama kalian buat file tambah_pelanggan.php di folder pelanggan (untuk source code bisa cek difolder pelanggan)
+        , file ini digunakan untuk membuat form/ halaman baru seperti berikut ini :         
+   <img src= "https://user-images.githubusercontent.com/45529723/146817138-110002ae-3004-43cb-91fc-2ad8e280eee1.PNG" />
+   
+-------------------------------------------------------------------------------------------           
+           Setelah itu, kita buat file aksi_tambah_pelanggan di folder pelanggan supaya data yang di input masuk ke database.
+   <img src= "https://user-images.githubusercontent.com/45529723/146817145-1d3a18ff-b98a-4f22-bf85-7f82e94bbc81.PNG" />
+  
+-------------------------------------------------------------------------------------------  
+           Untuk di tampilan dan di database ada 9 data pelanggan seperti gambar berikut ini
+  <img src= "https://user-images.githubusercontent.com/45529723/146817150-89c2377e-0261-4eca-a68c-3b7e651e5184.PNG" />
+
+-------------------------------------------------------------------------------------------  
+           Disini saya coba untuk memasukkan data berikut :
+   <img src= "https://user-images.githubusercontent.com/45529723/146817153-abbf9fcb-0c13-4fa9-bfaa-e7b1b66c0fc2.PNG" />
+    
+-------------------------------------------------------------------------------------------  
+           Maka baik di database ataupun di halaman web,  data yang di input akan otomatis masuk :
+   <img src= "https://user-images.githubusercontent.com/45529723/146817155-3026bdd4-887a-4d63-953c-1b0df28b5a8c.PNG" />
+   <img src= "https://user-images.githubusercontent.com/45529723/146817156-c6eaa359-76d2-4145-ab89-65681602728f.PNG" />
 -------------------------------------------------------------------------------------------
 
 
