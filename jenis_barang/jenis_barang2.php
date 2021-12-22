@@ -71,7 +71,7 @@
 
           <div class="box">
             <div class="box-header">
-              <a href="index.php?hal=tambah_barang">
+              <a href="index.php?hal=tambah_jenis_barang">
               <input type="button" value="Tambah" class="btn btn-primary" name="">
               </a>
             </div>
@@ -93,22 +93,18 @@
                 <tbody>
 <?php
 include 'koneksi.php';
-            $stid = oci_parse($conn, 'SELECT * from BARANG');
+            $stid = oci_parse($conn, 'SELECT * from JENIS_BARANG');
             oci_execute($stid);
             $no=1;
             while (($d = oci_fetch_array($stid, OCI_BOTH)) != false) {
               ?>
                 <tr>
                   <td><?php echo $no; $no++;?></td>
-                  <td><?php echo $d['KD_BARANG']?></td>
                   <td><?php echo $d['KD_JENIS']?></td>
-                  <td><?php echo $d['KD_PETUGAS']?></td>
-                  <td><?php echo $d['NAMA_BARANG']?></td>
-                  <td><?php echo $d['JUMLAH_BARANG']?></td>
-                  <td><?php echo $d['HARGA']?></td>
+                  <td><?php echo $d['NAMA_JENIS']?></td>
                   
-                  <td><a href="index.php?hal=edit_barang&KD_BARANG=<?php echo $d['KD_BARANG']?>"><button type="button" class="btn btn-warning" name=""> <i class="fa fa-pencil"></i> Edit</button></a>
-                    <a onclick="return confirm('Anda Yakin...?')" href="barang/hapus_barang.php?KD_BARANG=<?php echo $d['KD_BARANG']?>">
+                  <td><a href="index.php?hal=edit_jebis_barang&KD_JENIS=<?php echo $d['KD_JENIS']?>"><button type="button" class="btn btn-warning" name=""> <i class="fa fa-pencil"></i> Edit</button></a>
+                    <a onclick="return confirm('Anda Yakin...?')" href="jenis_barang/hapus_jenis_barang.php?KD_JENIS=<?php echo $d['KD_JENIS']?>">
                     <button type="button" class="btn btn-danger" name=""> <i class="fa fa-trash"></i> Hapus</button></a>
                   </td>
                 </tr>

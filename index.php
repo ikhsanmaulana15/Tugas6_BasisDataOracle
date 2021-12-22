@@ -3,6 +3,7 @@
 <?php
 include "style/pilih_style.php";
 ?>
+
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
@@ -77,7 +78,7 @@ include "style/pilih_style.php";
   <?php
     include "content.php";
   ?>
-
+ 
   <!-- /.content-wrapper -->
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
@@ -91,5 +92,6 @@ include "style/pilih_style.php";
 <?php
 include "js/pilih_js.php";
 ?>
+
 </body>
 </html>

@@ -51,8 +51,8 @@ include 'koneksi.php';
                   <td><?php echo $d['KD_JENIS']?></td>
                   <td><?php echo $d['NAMA_JENIS']?></td>
 
-                  <td><a href="index.php?hal=edit_barang&id=<?php echo $d['id']?>"><button type="button" class="btn btn-warning" name=""> <i class="fa fa-pencil"></i> Edit</button></a>
-                    <a onclick="return confirm('Anda Yakin...?')" href="barang/hapus_barang.php?id=<?php echo $d['id']?>">
+                  <td><a href="index.php?hal=edit_jenis_barang&id=<?php echo $d['KD_JENIS']?>"><button type="button" class="btn btn-warning" name=""> <i class="fa fa-pencil"></i> Edit</button></a>
+                    <a onclick="return confirm('Anda Yakin...?')" href="jenis_barang/hapus_jenis_barang.php?id=<?php echo $d['KD_JENIS']?>">
                     <button type="button" class="btn btn-danger" name=""> <i class="fa fa-trash"></i> Hapus</button></a>
                   </td>
                 </tr>

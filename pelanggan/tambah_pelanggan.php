@@ -2,7 +2,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        TAMBAH DATA BARANG
+        TAMBAH DATA PELANGGAN
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -23,34 +23,24 @@
             </div>
             <!-- /.box-header -->
             <!-- form start -->
-            <form role="form" action="barang/aksi_tambah_barang.php" method="post">
+            <form role="form" action="pelanggan/aksi_tambah_pelanggan.php" method="POST">
               <div class="box-body">
                 <div class="form-group">
-                  <label>Kode Barang</label>
-                  <input type="text" class="form-control" placeholder="Kode Barang" name="kd_barang">
+                  <label>Kode Pelanggan</label>
+                  <input type="text" class="form-control" placeholder="Kode Pelanggan" name="kd_pelanggan">
                 </div>
                 <div class="form-group">
-                  <label>Kode Jenis</label>
-                  <input type="text" class="form-control" placeholder="Kode Jenis" name="kd_jenis">
+                  <label>Nama Pelanggan</label>
+                  <input type="text" class="form-control" placeholder="Nama Pelanggan" name="nama_pel">
                 </div>
                 <div class="form-group">
-                  <label>Kode Petugas</label>
-                <input type="text" class="form-control" placeholder="Kode Petugas" name="kd_petugas">
+                  <label>Alamat Pelanggan</label>
+                  <input type="text" class="form-control" placeholder="Alamat Pelanggan" name="alamat_pel">
                 </div>
+                
                 <div class="form-group">
-                  <label>Nama Barang</label>
-                <input type="text" class="form-control" placeholder="Nama Barang" name="nama_barang">
-                </div>
-                <div class="form-group">
-                  <label>Jumlah Barang</label>
-                  <input class="form-control" name="jumlah_barang" type="number">
-                </div>
-                </div>
-
-                <div class="form-group">
-                  <label>Harga Barang</label>
-                  <input class="form-control" name="harga" type="number">
-                </div>
+                  <label>No. Telp</label>
+                  <input class="form-control" name="no_telp" type="number">
                 </div>
               
               <!-- /.box-body -->

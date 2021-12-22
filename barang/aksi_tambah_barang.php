@@ -1,29 +1,21 @@
 <?php
-require_once 'koneksi.php';
-if (isset($_POST['submit'])) {
-  $id = $_POST['KD_BARANG'];
-  $idd = $_POST['KD_JENIS'];
-  $iddd = $_POST['KD_PETUGAS'];
-  $nama = $_POST['NAMA_BARANG'];
-  $jumlah = $_POST['JUMLAH_BARANG'];
-  $harga = $_POST['HARGA'];
+include("../koneksi.php");
+  $kd_barang = $_POST["kd_barang"];
+  $kd_jenis = $_POST["kd_jenis"];
+  $kd_petugas = $_POST["kd_petugas"];
+  $nama_barang = $_POST["nama_barang"];
+  $jumlah_barang = $_POST["jumlah_barang"];
+  $harga = $_POST["harga"];
  
  
-  
-	$query = "INSERT INTO BARANG (KD_BARANG,KD_JENIS,KD_PETUGAS, NAMA_BARANG,JUMLAH, HARGA) VALUES ('".$id."','".$idd."','".$iddd."','".$nama."','".$jumlah."','".$harga."')";
-	$statement = oci_parse($conn,$query);
-	$r = oci_execute($statement,OCI_DEFAULT);
-	 $res = oci_commit($conn);
-  if ($res) {
-    // pesan jika data tersimpan
-    echo "<script>alert('Data Barang berhasil ditambahkan'); 
-	window.location.href='barang.php'</script>";
-  } else {
-    // pesan jika data gagal disimpan
-    echo "<script>alert('Data transaksi gagal ditambahkan');
-	window.location.href='barang.php'</script>";
+$sql = "insert INTO BARANG (KD_BARANG,KD_JENIS,KD_PETUGAS,NAMA_BARANG,JUMLAH_BARANG,HARGA) VALUES ('$kd_barang','$kd_jenis','$kd_petugas','$nama_barang','$jumlah_barang','$harga')";
+
+	$parsesql = oci_parse($conn, $sql);
+  $q = oci_execute($parsesql) or die(oci_error());
+  $res = oci_commit($conn);
+if ($q) {
+  header('location:../index.php?hal=barang.php');
   }
-} else {
-  //jika coba akses langsung halaman ini akan diredirect ke halaman index
-  header('Location: barang.php'); 
-}
+  else {echo "gagal";}
+
+?>
