@@ -25,6 +25,7 @@
     2. Setelah itu, kita buat trigger yang bernama log_hapus ,
        tuliskan query triggernya sebagai berikut :
  <img src= "https://user-images.githubusercontent.com/45529723/147112876-fc69ee74-0e70-44dd-b479-896bd96da01f.PNG" />      
+ 
 -------------------------------------------------------------------------------------------
     3. Kemudian, kita coba untuk testing dengan melakukan hapus data pada tabel jenis_barang
        Disini saya menghapus data dengan KD_JENIS yaitu K020.
